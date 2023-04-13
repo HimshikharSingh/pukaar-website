@@ -3,7 +3,8 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: "EB Garamond", serif;
+  font-family: "Cabin Sketch", cursive;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -10,7 +10,7 @@ export default function NavigationBar() {
           className="w-100 font-medium px-5 pt-5 text-slate-700  hover:px-[20px] hover:font-semibold group "
         >
           Home
-          <div className="bg-white rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
+          <div className=" rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
         </a>
         <a
           name="team"
@@ -18,7 +18,7 @@ export default function NavigationBar() {
           className=" font-medium px-5 pt-5 text-slate-700 hover:px-[20px] hover:font-semibold group"
         >
           Team
-          <div className=" bg-white rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
+          <div className="  rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
         </a>
         <a
           name="projects"
@@ -26,7 +26,7 @@ export default function NavigationBar() {
           className=" font-medium px-5 pt-5 text-slate-700 hover:px-[20px] hover:font-semibold group"
         >
           Projects
-          <div className="bg-white rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
+          <div className=" rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black"></div>
         </a>
         <a
           name="reports"
@@ -34,7 +34,7 @@ export default function NavigationBar() {
           className=" font-medium px-5 pt-5 text-slate-700 hover:px-[20px] hover:font-semibold group"
         >
           Reports
-          <div className="bg-white rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black "></div>
+          <div className=" rounded-t-md h-[5px] w-full mt-4 pb-0  group-hover:bg-black "></div>
         </a>
       </nav>
     </div>
