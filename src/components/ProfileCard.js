@@ -32,8 +32,13 @@ const Carousel = () => {
         onSwiper={setSwiper}
       >
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold mb-16">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 1</div>
 
               <div className="flex justify-center">content 1</div>
@@ -41,8 +46,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 2</div>
 
               <div className="flex justify-center">content 2</div>
@@ -50,8 +60,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 3</div>
 
               <div className="flex justify-center">content 3</div>
@@ -59,8 +74,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 4</div>
 
               <div className="flex justify-center">content 4</div>
@@ -68,8 +88,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 5</div>
 
               <div className="flex justify-center">content 5</div>
@@ -77,8 +102,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-80 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
+              <img
+                className="flex justify-center rounded-lg h-44 w-44 mb-4"
+                src="./dummy-profile.jpg"
+                alt="profile"
+              />
               <div className="flex justify-center">Slide 6</div>
 
               <div className="flex justify-center">content 6</div>
