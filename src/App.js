@@ -4,6 +4,7 @@ import DonateButton from "./components/DonateButton";
 import Logo from "./components/Logo";
 import NavigationBar from "./components/NavigationBar";
 import React from "react";
+import ProfileCard from "./components/ProfileCard";
 function App() {
   return (
     <div
@@ -14,7 +15,7 @@ function App() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="bg-opacity-90 bg-gray-300 flex justify-evenly sticky top-0 z-50 shadow-md">
+      <div className="bg-opacity-90 bg-[#E2F7D4] flex justify-evenly sticky top-0 z-50 shadow-md">
         <div>
           <Logo />
         </div>
@@ -29,6 +30,12 @@ function App() {
       </div>
       <div>
         <Description />
+      </div>
+      <div className="h-20 my-5 flex justify-center items-center w-[100%] bg-opacity-90 bg-[#E2F7D4] shadow-md text-5xl">
+        Our Team
+      </div>
+      <div>
+        <ProfileCard />
       </div>
     </div>
   );
