@@ -21,7 +21,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative mx-10">
+    <div className="relative mx-24">
       <Swiper
         spaceBetween={10}
         slidesPerView={3}
@@ -32,7 +32,7 @@ const Carousel = () => {
         onSwiper={setSwiper}
       >
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 1</div>
 
@@ -41,7 +41,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 2</div>
 
@@ -50,7 +50,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 3</div>
 
@@ -59,7 +59,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 4</div>
 
@@ -68,7 +68,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 5</div>
 
@@ -77,7 +77,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#ffecb2] h-64 rounded-lg flex justify-center items-center text-[#292929] text-2xl font-bold">
+          <div className="bg-[#ffecb2] h-64 rounded-xl flex justify-center items-center text-[#292929] text-2xl font-bold">
             <div>
               <div className="flex justify-center">Slide 6</div>
 
