@@ -3,7 +3,7 @@ import DescCards from "./DescCards";
 
 function Description() {
   return (
-    <div className="text-white rounded-3xl flex justify-center mt-24 ml-24 mr-24 mb-10 h-[640px] w-auto bg-[#F7BF2C]">
+    <div className="text-white rounded-3xl flex justify-center mt-16 ml-24 mr-24 mb-10 h-[640px] w-auto bg-[#F7BF2C]">
       <div className="flex flex-col justify-evenly items-center">
         <div className="text-5xl ">
           Fundraising at Pukaar takes only few seconds

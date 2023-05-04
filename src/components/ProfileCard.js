@@ -116,13 +116,13 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="absolute top-0 left-0 flex justify-center items-center h-full w-12">
+      <div className="absolute -top-5 left-0 flex justify-center items-center h-full w-12">
         <button
           className="swiper-button-prev text-white text-xl"
           onClick={handlePrev}
         ></button>
       </div>
-      <div className="absolute top-0 right-0 flex justify-center items-center h-full w-12">
+      <div className="absolute -top-5 right-0 flex justify-center items-center h-full w-12">
         <button
           className="swiper-button-next text-white text-xl"
           onClick={handleNext}

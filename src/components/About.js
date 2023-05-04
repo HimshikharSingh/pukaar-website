@@ -12,7 +12,7 @@ function About() {
           some descriptive some descriptive some descriptive
         </div>
       </div>
-      <div className=" mt-5  flex gap-x-3 justify-center">
+      <div className="   flex gap-x-3 justify-center">
         <div className="gap-2 h-96  w-64 bg-none  flex flex-col justify-center items-center ">
           <div className="w-full h-[70%] text-white bg-[#4E8A32] rounded-[35px]">
             leftc
