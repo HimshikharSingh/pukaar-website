@@ -5,6 +5,10 @@ import Logo from "./components/Logo";
 import NavigationBar from "./components/NavigationBar";
 import React from "react";
 import ProfileCard from "./components/ProfileCard";
+import Causes from "./components/Causes";
+import Statistics from "./components/Statistics";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div
@@ -36,6 +40,23 @@ function App() {
       </div>
       <div>
         <ProfileCard />
+      </div>
+      <div>
+        <div className="h-20 my-5 flex justify-center items-center w-[100%] bg-opacity-90 bg-[#E2F7D4] shadow-md text-5xl">
+          Our Causes
+        </div>
+        <Causes />
+        <Causes />
+        <Causes />
+      </div>
+      <div>
+        <div className="h-20 my-10 flex justify-center items-center w-[100%] bg-opacity-90 bg-[#E2F7D4] shadow-md text-5xl">
+          Our Impact
+        </div>
+        <Statistics />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
